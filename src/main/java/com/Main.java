@@ -3,6 +3,9 @@ package com;
 import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;
 
+/* Simple Apache Camel context with a single Camel route that copies all files from
+ * an input directory to an output directory every 5 minutes.
+ */
 public class Main {
 
     public static void main(String[] args) {
